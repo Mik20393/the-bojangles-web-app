@@ -1,0 +1,23 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.navList {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLink {
+    list-style: none;
+    padding: 5px;
+}
