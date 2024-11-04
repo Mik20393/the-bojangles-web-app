@@ -12,11 +12,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px solid white
+  border-bottom: 5px solid black
 }
 
 .sectionTitle {
-  height: 20%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.musicTitleBackground {
+  background-color: #FCC058;
+}
+
+.aboutTitleBackground {
+  background-color: #AC006F;
+}
+
+.tourTitleBackground {
+  background-color: #326502;
+}
+
+.contactTitleBackground {
+  background-color: #E16020;
+}
+
+.sectionMainContent {
+  height: 85%;
   width: 100%;
   display: flex;
   justify-content: center;

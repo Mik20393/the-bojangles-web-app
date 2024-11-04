@@ -9,19 +9,36 @@ export default function Home() {
           <h1>Home Page</h1>
         </div>
       </section>
-      <section className={styles.baseSection} id="section1">
-        <div className={styles.sectionTitle}>
-          <h1>Section 1</h1>
+      <section className={styles.baseSection} id="music">
+        <div className={`${styles.sectionTitle} ${styles.musicTitleBackground}`}>
+          <h1>Music Section Title</h1>
+        </div>
+        <div className={styles.sectionMainContent}>
+          <h1>Music section content</h1>
         </div>
       </section>
-      <section className={styles.baseSection} id="section2">
-        <div className={styles.sectionTitle}>
-          <h1>Section 2</h1>
+      <section className={styles.baseSection} id="about">
+        <div className={`${styles.sectionTitle} ${styles.aboutTitleBackground}`}>
+          <h1>About Section Title</h1>
+        </div>
+        <div className={styles.sectionMainContent}>
+          <h1>About Section Content</h1>
         </div>
       </section>
-      <section className={styles.baseSection} id="section3">
-      <div className={styles.sectionTitle}>
-          <h1>Section 3</h1>
+      <section className={styles.baseSection} id="tour">
+      <div className={`${styles.sectionTitle} ${styles.tourTitleBackground}`}>
+          <h1>Tour Section Title</h1>
+        </div>
+        <div className={styles.sectionMainContent}>
+          <h1>Tour Section Content</h1>
+        </div>
+      </section>
+      <section className={styles.baseSection} id="contact">
+      <div className={`${styles.sectionTitle} ${styles.contactTitleBackground}`}>
+          <h1>Contact Section Title</h1>
+        </div>
+        <div className={styles.sectionMainContent}>
+          <h1>Contact Section Content</h1>
         </div>
       </section>
     </div>
