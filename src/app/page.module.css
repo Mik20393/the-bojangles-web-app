@@ -16,6 +16,7 @@
 }
 
 .sectionTitleContainer {
+  position: relative;
   height: 15%;
   width: 100%;
   display: flex;
@@ -57,7 +58,7 @@
 }
 
 .logoImageContainer {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   height: 150px;
@@ -69,7 +70,7 @@
 }
 
 .navMenuContainer {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   height: 150px;
