@@ -5,15 +5,25 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <section className={styles.baseSection} id="home">
-        <div className={styles.sectionTitle}>
-          <h1>Home Page Title</h1>
+        <div className={styles.sectionTitleContainer}>
+
+          <div className={styles.sectionTitleItem}>
+            <h1>Band Logo</h1>
+          </div>
+          <div className={styles.sectionTitleItem}>
+            <h1>"The most serious band in Scotland"</h1>
+          </div>
+          <div className={styles.sectionTitleItem}>
+            <h1>Socials / Nav Container</h1>
+          </div>
+      
         </div>
         <div className={styles.sectionMainContent}>
           <h1>Home Page Content</h1>
         </div>
       </section>
       <section className={styles.baseSection} id="music">
-        <div className={`${styles.sectionTitle} ${styles.musicTitleBackground}`}>
+        <div className={`${styles.sectionTitleContainer} ${styles.musicTitleBackground}`}>
           <h1>Music Section Title</h1>
         </div>
         <div className={styles.sectionMainContent}>
@@ -21,7 +31,7 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.baseSection} id="about">
-        <div className={`${styles.sectionTitle} ${styles.aboutTitleBackground}`}>
+        <div className={`${styles.sectionTitleContainer} ${styles.aboutTitleBackground}`}>
           <h1>About Section Title</h1>
         </div>
         <div className={styles.sectionMainContent}>
@@ -29,7 +39,7 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.baseSection} id="tour">
-      <div className={`${styles.sectionTitle} ${styles.tourTitleBackground}`}>
+      <div className={`${styles.sectionTitleContainer} ${styles.tourTitleBackground}`}>
           <h1>Tour Section Title</h1>
         </div>
         <div className={styles.sectionMainContent}>
@@ -37,7 +47,7 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.baseSection} id="contact">
-      <div className={`${styles.sectionTitle} ${styles.contactTitleBackground}`}>
+      <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
           <h1>Contact Section Title</h1>
         </div>
         <div className={styles.sectionMainContent}>

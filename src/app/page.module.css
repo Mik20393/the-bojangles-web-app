@@ -15,12 +15,17 @@
   border-bottom: 5px solid black
 }
 
-.sectionTitle {
+.sectionTitleContainer {
   height: 15%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.sectionTitleItem {
+  height: 100%;
+  display: flex;
 }
 
 .musicTitleBackground {
