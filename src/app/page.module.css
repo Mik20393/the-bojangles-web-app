@@ -61,6 +61,7 @@
   top: 0;
   left: 0;
   height: 150px;
+  max-height: 100%;
   width: 150px;
   display: flex;
   justify-content: center;
@@ -72,6 +73,7 @@
   top: 0;
   right: 0;
   height: 150px;
+  max-height: 100%;
   width: 150px;
   display: flex;
   justify-content: center;
