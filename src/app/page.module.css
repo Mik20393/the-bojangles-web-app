@@ -19,7 +19,7 @@
   height: 15%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-bottom: 5px solid black
 }
