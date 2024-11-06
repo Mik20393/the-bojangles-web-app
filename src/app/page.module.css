@@ -34,7 +34,7 @@
 .sectionTitleItemWidth {
   max-width: 250px;
   width: 15%;
-  min-width: 150px
+  min-width: 100px
 }
 
 .musicTitleBackground {
@@ -60,7 +60,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .imageContainer {
   position: relative;
