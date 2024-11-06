@@ -15,6 +15,7 @@ export default function Home() {
               <Image
                 src={bandLogo} 
                 fill={true}
+                layout="fill"
                 objectFit="contain"
               />     
             </div>
@@ -32,11 +33,12 @@ export default function Home() {
             <Image 
               src={heroImage}
               fill={true}
+              layout="fill"
               objectFit="contain"
             />
           </div>
         </div>
-        
+
       </section>
       <section className={styles.baseSection} id="music">
         <div className={`${styles.sectionTitleContainer} ${styles.musicTitleBackground}`}>
