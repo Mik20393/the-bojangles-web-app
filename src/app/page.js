@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import bandLogo from "@/public/logo.jpg"
+
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -8,7 +10,10 @@ export default function Home() {
         <div className={styles.sectionTitleContainer}>
 
           <div className={styles.sectionTitleItem}>
-            <h1>Band Logo</h1>
+            <Image
+              src={bandLogo} 
+              fill={true}
+            />         
           </div>
           <div className={styles.sectionTitleItem}>
             <h1>The most seriousbadn in Scotland</h1>
