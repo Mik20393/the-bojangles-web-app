@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import bandLogo from "@/public/logo.jpg"
+import heroImage from "@/public/heroImage.jpg"
 
 export default function Home() {
   return (
@@ -11,12 +12,13 @@ export default function Home() {
 
           <div className={styles.sectionTitleItem}>
             <Image
+              className={styles.image}
               src={bandLogo} 
               fill={true}
             />         
           </div>
           <div className={styles.sectionTitleItem}>
-            <h1>The most seriousbadn in Scotland</h1>
+            <h1>The most serious band in Scotland</h1>
           </div>
           <div className={styles.sectionTitleItem}>
             <h1>Socials / Nav Container</h1>
@@ -24,7 +26,12 @@ export default function Home() {
       
         </div>
         <div className={styles.sectionMainContent}>
-          <h1>Home Page Content</h1>
+
+          <Image 
+            className={styles.heroImage}
+            src={heroImage}
+            fill={true}
+          />
         </div>
       </section>
       <section className={styles.baseSection} id="music">
