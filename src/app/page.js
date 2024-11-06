@@ -8,14 +8,16 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <section className={styles.baseSection} id="home">
-        <div className={styles.sectionTitleContainer}>
 
+        <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitleItem}>
-            <Image
-              className={styles.image}
-              src={bandLogo} 
-              fill={true}
-            />         
+            <div className={styles.imageContainer}>
+              <Image
+                src={bandLogo} 
+                fill={true}
+                objectFit="contain"
+              />     
+            </div>
           </div>
           <div className={styles.sectionTitleItem}>
             <h1>The most serious band in Scotland</h1>
@@ -23,16 +25,18 @@ export default function Home() {
           <div className={styles.sectionTitleItem}>
             <h1>Socials / Nav Container</h1>
           </div>
-      
         </div>
-        <div className={styles.sectionMainContent}>
 
-          <Image 
-            className={styles.heroImage}
-            src={heroImage}
-            fill={true}
-          />
+        <div className={styles.sectionMainContent}>
+          <div className={styles.imageContainer}>
+            <Image 
+              src={heroImage}
+              fill={true}
+              objectFit="contain"
+            />
+          </div>
         </div>
+        
       </section>
       <section className={styles.baseSection} id="music">
         <div className={`${styles.sectionTitleContainer} ${styles.musicTitleBackground}`}>

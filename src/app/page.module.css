@@ -54,13 +54,11 @@
 }
 
 
-.image {
+.imageContainer {
+  position: relative;
   object-fit: cover;
   height: 100%;
-}
-
-.heroImage {
-  object-fit: cover;
+  width: 100%;
 }
 
 /* Enable hover only on non-touch devices */
