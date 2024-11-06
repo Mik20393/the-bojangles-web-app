@@ -32,9 +32,7 @@
 }
 
 .sectionTitleItemWidth {
-  max-width: 150px;
-  width: 15%;
-  min-width: 100px
+  width: 100px;
 }
 
 .musicTitleBackground {
