@@ -34,7 +34,7 @@ export default function Home() {
               src={heroImage}
               fill={true}
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
             />
           </div>
         </div>
