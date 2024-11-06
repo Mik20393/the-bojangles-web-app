@@ -57,11 +57,19 @@
 }
 
 .logoImageContainer {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
 }
 
 .navMenuContainer {
-  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
 }
 
 .heroImageContainer {
