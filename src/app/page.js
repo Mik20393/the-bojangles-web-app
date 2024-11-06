@@ -29,9 +29,8 @@ export default function Home() {
         </div>
 
         <div className={styles.sectionMainContent}>
-          <div>
-            <Image
-              className={styles.imageContainer} 
+          <div className={styles.imageContainer}>
+            <Image 
               src={heroImage}
               fill={true}
               layout="fill"
