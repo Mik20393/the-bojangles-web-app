@@ -24,15 +24,12 @@
   border-bottom: 5px solid black
 }
 
-.sectionTitleItem {
+.sectionTitle {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.sectionTitleItemWidth {
-  width: 100px;
+  color: white;
 }
 
 .musicTitleBackground {
@@ -59,7 +56,15 @@
   align-items: center;
 }
 
-.imageContainer {
+.logoImageContainer {
+  display: none;
+}
+
+.navMenuContainer {
+  display: none;
+}
+
+.heroImageContainer {
   position: relative;
   height: 100%;
   width: 100%;

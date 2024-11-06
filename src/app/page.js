@@ -10,23 +10,21 @@ export default function Home() {
       <section className={styles.baseSection} id="home">
 
         <div className={styles.sectionTitleContainer}>
-          <div className={`${styles.sectionTitleItem} ${styles.sectionTitleItemWidth}`}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={bandLogo} 
-                fill={true}
-                layout="fill"
-                objectFit="fill"
-              />     
-            </div>
+          <div className={styles.logoImageContainer}>
+            <Image
+              src={bandLogo} 
+              fill={true}
+              layout="fill"
+              objectFit="fill"
+            />     
           </div>
-          <div className={styles.sectionTitleItem}>
-            <h1>Socials / Nav Container</h1>
+          <div className={styles.navMenuContainer}>
+            <h1>NAV</h1>
           </div>
         </div>
 
         <div className={styles.sectionMainContent}>
-          <div className={styles.imageContainer}>
+          <div className={styles.heroImageContainer}>
             <Image 
               src={heroImage}
               fill={true}
@@ -39,7 +37,9 @@ export default function Home() {
       </section>
       <section className={styles.baseSection} id="music">
         <div className={`${styles.sectionTitleContainer} ${styles.musicTitleBackground}`}>
-          <h1>Our Music</h1>
+          <div className={styles.sectionTitle}>
+            <h1>Our Music</h1>
+          </div>
         </div>
         <div className={styles.sectionMainContent}>
           <h1>Music section content</h1>
@@ -47,23 +47,29 @@ export default function Home() {
       </section>
       <section className={styles.baseSection} id="about">
         <div className={`${styles.sectionTitleContainer} ${styles.aboutTitleBackground}`}>
-          <h1>Our Story</h1>
+          <div className={styles.sectionTitle}>
+            <h1>Our Story</h1>
+          </div>
         </div>
         <div className={styles.sectionMainContent}>
           <h1>About Section Content</h1>
         </div>
       </section>
       <section className={styles.baseSection} id="tour">
-      <div className={`${styles.sectionTitleContainer} ${styles.tourTitleBackground}`}>
-          <h1>Live Shows</h1>
+        <div className={`${styles.sectionTitleContainer} ${styles.tourTitleBackground}`}>
+          <div className={styles.sectionTitle}>
+            <h1>Live Shows</h1>
+          </div>
         </div>
         <div className={styles.sectionMainContent}>
           <h1>Tour Section Content</h1>
         </div>
       </section>
       <section className={styles.baseSection} id="contact">
-      <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
-          <h1>Get In Touch</h1>
+        <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
+          <div className={styles.sectionTitle}>
+            <h1>Get In Touch</h1>
+          </div>
         </div>
         <div className={styles.sectionMainContent}>
           <h1>Contact Section Content</h1>
