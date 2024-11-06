@@ -11,7 +11,7 @@ export default function Home() {
             <h1>Band Logo</h1>
           </div>
           <div className={styles.sectionTitleItem}>
-            <h1>"The most serious band in Scotland"</h1>
+            <h1>`"`The most serious band in Scotland`"`</h1>
           </div>
           <div className={styles.sectionTitleItem}>
             <h1>Socials / Nav Container</h1>
