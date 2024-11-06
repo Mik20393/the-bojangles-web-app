@@ -5,8 +5,11 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <section className={styles.baseSection} id="home">
-      <div className={styles.sectionTitle}>
-          <h1>Home Page</h1>
+        <div className={styles.sectionTitle}>
+          <h1>Home Page Title</h1>
+        </div>
+        <div className={styles.sectionMainContent}>
+          <h1>Home Page Content</h1>
         </div>
       </section>
       <section className={styles.baseSection} id="music">
