@@ -9,7 +9,7 @@
     font-size: 35px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .aboutSectionContent {
         font-size: 20px;
     }
