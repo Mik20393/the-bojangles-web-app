@@ -9,6 +9,12 @@
     font-size: 35px;
 }
 
+@media (max-width: 850px) {
+    .aboutSectionContent {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 600px) {
     .aboutSectionContent {
         font-size: 12px;
