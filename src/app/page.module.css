@@ -9,10 +9,27 @@
   height: 100vh;
   width: 100%;
   display:flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 5px solid black
+}
+
+.largeContentContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallContentContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sectionTitleContainer {
@@ -106,6 +123,15 @@
 }
 
 @media (max-width: 600px) {
+
+  .baseSection {
+    flex-direction: column;
+  }
+
+  .smallContentContainer {
+    width: 100%;
+  }
+
   .page {
     padding: 32px;
     padding-bottom: 80px;
