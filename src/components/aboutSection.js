@@ -3,7 +3,7 @@ import styles from "./about.module.css"
 export default function AboutSection() {
     return (
         <div className={styles.aboutSectionContainer}>
-            <p>
+            <p className={styles.aboutSectionContent}>
                 We are The Bojangles, an alternative hip-hop live band <br />
                 from Glasgow, formed in 2023. We love experimenting with <br />
                 jazzy, funky feel-good rhythyms, our lyrics range from <br />
