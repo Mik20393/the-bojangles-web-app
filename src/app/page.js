@@ -22,8 +22,8 @@ export default function Home() {
                 objectFit="fill"
               />     
             </div>
-            <div className={styles.navMenuContainer}>
-              <h1>NAV</h1>
+            <div className={styles.socialsContainer}>
+              <h1>SOCIALS</h1>
             </div>
           </div>
           <div className={styles.sectionMainContent}>
