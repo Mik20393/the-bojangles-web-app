@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import AboutSection from "@/components/aboutSection"
+
 import bandLogo from "@/public/logo.jpg"
 import heroImage from "@/public/heroImage.jpg"
 
@@ -57,7 +59,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sectionMainContent}>
-            <h1>About Section Content</h1>
+            <AboutSection />
           </div>
         </div>
 
