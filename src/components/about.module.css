@@ -6,11 +6,11 @@
 }
 
 .aboutSectionContent {
-    font-size: 100px;
+    font-size: 50px;
 }
 
 @media (max-width: 600px) {
     .aboutSectionContent {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
