@@ -80,7 +80,7 @@ export default function Home() {
 
       <section className={styles.baseSection} id="contact">
 
-        <div className={largeContentContainer}>
+        <div className={styles.largeContentContainer}>
           <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
             <div className={styles.sectionTitle}>
               <h1>Get In Touch</h1>
@@ -90,7 +90,7 @@ export default function Home() {
             <h1>Contact Section Content</h1>
           </div>
         </div>
-        
+
       </section>
 
     </div>
