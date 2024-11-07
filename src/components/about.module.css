@@ -5,8 +5,12 @@
     align-items: flex-start;
 }
 
+.aboutSectionContent {
+    font-size: 100px;
+}
+
 @media (max-width: 600px) {
     .aboutSectionContent {
-        font-size: 10px;
+        font-size: 20px;
     }
 }
