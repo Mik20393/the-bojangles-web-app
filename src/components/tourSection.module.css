@@ -4,14 +4,9 @@
 }
 
 .posterContentContainer {
+    position:relative;
     height: 100%;
     width: 50%;
-}
-
-.posterImageContainer {
-    position:relative;
-    width:100%;
-    height:100%;
 }
 
 @media (max-width: 600px) {
