@@ -4,9 +4,8 @@
 }
 
 .posterContentContainer {
-    position:relative;
-    display: inline-block;
     width: 50%;
+    margin: 0 auto;
 }
 
 @media (max-width: 600px) {

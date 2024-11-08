@@ -15,7 +15,7 @@ export default function TourSection() {
             <div className={styles.posterContentContainer}>
                 <Image 
                     src={gigPoster}
-                    fill={true}
+                    alt="Gig poster for the upcoming bojangles gig"
                     width={16}
                     height={9}
                     layout="responsive"
