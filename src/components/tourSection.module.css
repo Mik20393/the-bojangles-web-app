@@ -5,9 +5,7 @@
 
 .posterContentContainer {
     position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     width: 50%;
 }
 
