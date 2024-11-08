@@ -4,16 +4,24 @@
 }
 
 .posterContentContainer {
+    height: 100%;
     width: 50%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.posterImageContainer {
+    position: relative;
+    height: 95%;
+    width: 65.6875%;
+}
 @media (max-width: 600px) {
     .liveShowDetailsContainer {
         width: 100%;
     }
 
     .posterContentContainer {
-        width: 100%;
+        display: none;
     }
 }

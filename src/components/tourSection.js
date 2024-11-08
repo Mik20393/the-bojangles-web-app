@@ -13,15 +13,14 @@ export default function TourSection() {
                 <div></div>
             </div>
             <div className={styles.posterContentContainer}>
-                <Image 
-                    src={gigPoster}
-                    alt="Gig poster for the upcoming bojangles gig"
-                    width={16}
-                    height={9}
-                    layout="responsive"
-                    objectFit="contain"
-                />
-                
+                <div className={styles.posterImageContainer}>
+                    <Image 
+                        src={gigPoster}
+                        alt="Gig poster for the upcoming bojangles gig"
+                        fill={true}
+                        objectFit="contain"                        
+                    />
+                </div>
             </div>
         </>
     )
