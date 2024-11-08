@@ -17,7 +17,7 @@ export default function TourSection() {
                     src={gigPoster}
                     fill={true}
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="fill"
                 />
                 
             </div>
