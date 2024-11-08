@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import AboutSectionContent from "@/components/aboutSection"
+import HomeSectionContent from "@/components/homeSection";
+import AboutSectionContent from "@/components/aboutSection";
 import TourSectionContent from "@/components/tourSection";
 
 import bandLogo from "@/public/logo.jpg"
-import heroImage from "@/public/heroImage.jpg"
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
             <div className={styles.logoImageContainer}>
               <Image
                 src={bandLogo} 
+                alt="Image of band"
                 fill={true}
                 layout="fill"
                 objectFit="cover"
@@ -28,14 +29,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sectionMainContent}>
-            <div className={styles.heroImageContainer}>
-              <Image 
-                src={heroImage}
-                fill={true}
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
+            <HomeSectionContent />
           </div>
         </div>
         

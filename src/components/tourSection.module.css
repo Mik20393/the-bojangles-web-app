@@ -1,6 +1,18 @@
 .liveShowDetailsContainer {
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gigDetailsContainer {
+    background-color: lightgray;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
 }
 
 .posterContentContainer {
