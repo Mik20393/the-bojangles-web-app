@@ -19,6 +19,7 @@ export default function TourSection() {
                     width={16}
                     height={9}
                     layout="responsive"
+                    objectFit="contain"
                 />
                 
             </div>
