@@ -1,4 +1,4 @@
-import styles from "./about.module.css"
+import styles from "./aboutSection.module.css"
 
 export default function AboutSection() {
     return (
