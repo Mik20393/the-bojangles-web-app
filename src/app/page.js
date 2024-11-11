@@ -21,7 +21,7 @@ export default function Home() {
                 alt="Image of band"
                 fill={true}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
               />     
             </div>
             <div className={styles.socialsContainer}>
