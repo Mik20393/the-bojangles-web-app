@@ -1,6 +1,14 @@
+.tourSectionContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .liveShowDetailsContainer {
     height: 100%;
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +26,7 @@
 
 .posterContentContainer {
     height: 100%;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +38,7 @@
     width: 65.6875%;
 }
 @media (max-width: 600px) {
-    .liveShowDetailsContainer {
-        width: 100%;
-    }
-
-    .posterContentContainer {
-        display: none;
+    .tourSectionContainer {
+        flex-direction: column-reverse;
     }
 }

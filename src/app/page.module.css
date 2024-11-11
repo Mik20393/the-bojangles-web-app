@@ -23,7 +23,7 @@
 }
 
 .smallContentContainer {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -59,6 +59,10 @@
 
 .tourTitleBackground {
   background-color: #326502;
+}
+
+.mediaTitleBackground {
+  background-color: #37C7DC;
 }
 
 .contactTitleBackground {

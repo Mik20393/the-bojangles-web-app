@@ -77,7 +77,18 @@ export default function Home() {
 
       <section className={styles.baseSection} id="contact">
 
-        <div className={styles.largeContentContainer}>
+        <div className={styles.smallContentContainer}>
+          <div className={`${styles.sectionTitleContainer} ${styles.mediaTitleBackground}`}>
+            <div className={styles.sectionTitle}>
+              <h1>Media</h1>
+            </div>
+          </div>
+          <div className={styles.sectionMainContent}>
+            <h1>Media Section Content</h1>
+          </div>
+        </div>
+
+        <div className={styles.smallContentContainer}>
           <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
             <div className={styles.sectionTitle}>
               <h1>Get In Touch</h1>
