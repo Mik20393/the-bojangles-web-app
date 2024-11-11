@@ -1,0 +1,25 @@
+.contactSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactSectionTextContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

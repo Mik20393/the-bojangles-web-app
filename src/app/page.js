@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import HomeSectionContent from "@/components/homeSection";
 import AboutSectionContent from "@/components/aboutSection";
 import TourSectionContent from "@/components/tourSection";
+import ContactSectionContent from "@/components/contactSection";
 
 import bandLogo from "@/public/logo.jpg"
 
@@ -95,7 +96,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sectionMainContent}>
-            <h1>Contact Section Content</h1>
+            <ContactSectionContent />
           </div>
         </div>
 
