@@ -1,6 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import { FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+
 import HomeSectionContent from "@/components/homeSection";
 import AboutSectionContent from "@/components/aboutSection";
 import MusicSectionContent from "@/components/musicSection";
@@ -27,7 +31,9 @@ export default function Home() {
               />     
             </div>
             <div className={styles.socialsContainer}>
-              <h1>SOCIALS</h1>
+              <h1><a href=""><FaXTwitter /></a></h1>
+              <h1><a href=""><FaInstagram /></a></h1>
+              <h1><a href=""><FaYoutube /></a></h1>
             </div>
           </div>
           <div className={styles.sectionMainContent}>
