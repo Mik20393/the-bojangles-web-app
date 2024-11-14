@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 import HomeSectionContent from "@/components/homeSection";
 import AboutSectionContent from "@/components/aboutSection";
+import MusicSectionContent from "@/components/musicSection";
 import TourSectionContent from "@/components/tourSection";
 import ContactSectionContent from "@/components/contactSection";
 
@@ -45,7 +46,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sectionMainContent}>
-            <h1>Music section content</h1>
+            <MusicSectionContent />
           </div>
         </div>
         <div className={styles.smallContentContainer}>
