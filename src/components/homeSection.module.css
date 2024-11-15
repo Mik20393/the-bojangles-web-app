@@ -1,9 +1,19 @@
 .heroImageContainer {
     position: relative;
-    height: 50vh;
+    height: 85vh;
     width: 100%;
 }
 
 .bannerImage {
   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .heroImageContainer {
+    height: 40vh
+  }
+
+  .bannerImage {
+    object-fit: contain;
+  }
 }
