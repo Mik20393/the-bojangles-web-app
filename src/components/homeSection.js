@@ -6,12 +6,11 @@ import heroImage from "@/public/heroImage.jpg"
 export default function HomeSection() {
     return (
         <div className={styles.heroImageContainer}>
-              <Image 
+              <Image
+                className={styles.bannerImage} 
                 src={heroImage}
                 alt="Image of the band in the studio"
                 fill={true}
-                layout="fill"
-                objectFit="cover"
               />
         </div>
     )

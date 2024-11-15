@@ -9,6 +9,7 @@ import HomeSectionContent from "@/components/homeSection";
 import AboutSectionContent from "@/components/aboutSection";
 import MusicSectionContent from "@/components/musicSection";
 import TourSectionContent from "@/components/tourSection";
+import MediaSectionContent from "@/components/mediaSection";
 import ContactSectionContent from "@/components/contactSection";
 
 import bandLogo from "@/public/logo.jpg"
@@ -92,7 +93,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sectionMainContent}>
-            <h1>Media Section Content</h1>
+            <MediaSectionContent />
           </div>
         </div>
 
