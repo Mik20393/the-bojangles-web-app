@@ -10,7 +10,6 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px solid black
 }
 
 .sectionContentContainer {
@@ -28,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 5px solid black;
   border-bottom: 5px solid black
 }
 
@@ -71,7 +71,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 15%;
+  width: 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,6 +87,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.socialsContainer h1 {
+  margin: 0.15rem;
 }
 
 /* Enable hover only on non-touch devices */

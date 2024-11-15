@@ -1,5 +1,5 @@
 .tourSectionContainer {
-    height: 85vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,12 +30,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem;
 }
 
 .posterImageContainer {
     position: relative;
-    height: 95%;
-    width: 65.6875%;
+    height: 100%;
+    width: 100%;
 }
 @media (max-width: 600px) {
     .tourSectionContainer {
