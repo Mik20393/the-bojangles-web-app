@@ -10,10 +10,7 @@
 
 @media (max-width: 600px) {
   .heroImageContainer {
-    height: 40vh
+    height: 40vh;
   }
-
-  .bannerImage {
-    object-fit: contain;
-  }
+  
 }
