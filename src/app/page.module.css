@@ -13,16 +13,7 @@
   border-bottom: 5px solid black
 }
 
-.largeContentContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.smallContentContainer {
-  height: 50vh;
+.sectionContentContainer {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,7 +23,7 @@
 
 .sectionTitleContainer {
   position: relative;
-  height: 15vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: center;

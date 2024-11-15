@@ -8,9 +8,15 @@
   object-fit: cover;
 }
 
+
+@media (max-width: 1800px) {
+  .heroImageContainer {
+    height: 60vh;
+  }
+} 
+
 @media (max-width: 600px) {
   .heroImageContainer {
     height: 40vh;
-  }
-  
+  } 
 }
