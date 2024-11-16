@@ -5,38 +5,54 @@
   align-items: center;
 }
 
-.baseSection {
-  width: 100%;
-  display:flex;
+.displayFlexCenter {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.displayFlexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.baseSection {
+  width: 100%;
 }
 
 .sectionContentContainer {
   width: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .sectionTitleContainer {
-  position: relative;
-  height: 10vh;
+  height: 15vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-top: 5px solid black;
   border-bottom: 5px solid black
 }
 
 .sectionTitle {
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
+}
+
+.logoImageContainer {
+  position: relative;
+  height: 100%;
+  width: 15vw;
+}
+
+.socialsContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialsContainer h1 {
+  margin: 0.15rem;
 }
 
 .musicTitleBackground {
@@ -64,33 +80,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.logoImageContainer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 10vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.socialsContainer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 150px;
-  max-height: 100%;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.socialsContainer h1 {
-  margin: 0.15rem;
 }
 
 /* Enable hover only on non-touch devices */

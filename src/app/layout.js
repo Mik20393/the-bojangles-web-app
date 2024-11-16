@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "The Bojangles",
-  description: "The Most Serious Band in Scotlans",
+  description: "The Most Serious Band in Scotland",
 };
 
 export default function RootLayout({ children }) {

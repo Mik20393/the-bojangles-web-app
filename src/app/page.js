@@ -18,10 +18,10 @@ export default function Home() {
   return (
     <div className={styles.main}>
 
-      <section className={styles.baseSection} id="home">
+      <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="home">
 
-        <div className={styles.sectionContentContainer}>
-          <div className={styles.sectionTitleContainer}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexSpaceBetween}`}>
             <div className={styles.logoImageContainer}>
               <Image
                 src={bandLogo} 
@@ -44,11 +44,11 @@ export default function Home() {
         
       </section>
 
-      <section className={styles.baseSection} id="about">
+      <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="about">
 
-        <div className={styles.sectionContentContainer}>
-          <div className={`${styles.sectionTitleContainer} ${styles.musicTitleBackground}`}>
-            <div className={styles.sectionTitle}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.musicTitleBackground}`}>
+            <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
               <h1>Our Music</h1>
             </div>
           </div>
@@ -56,9 +56,9 @@ export default function Home() {
             <MusicSectionContent />
           </div>
         </div>
-        <div className={styles.sectionContentContainer}>
-          <div className={`${styles.sectionTitleContainer} ${styles.aboutTitleBackground}`}>
-            <div className={styles.sectionTitle}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.aboutTitleBackground}`}>
+            <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
               <h1>Our Story</h1>
             </div>
           </div>
@@ -69,11 +69,11 @@ export default function Home() {
 
       </section>
 
-      <section className={styles.baseSection} id="tour">
+      <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="tour">
 
-        <div className={styles.sectionContentContainer}>
-          <div className={`${styles.sectionTitleContainer} ${styles.tourTitleBackground}`}>
-            <div className={styles.sectionTitle}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.tourTitleBackground}`}>
+            <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
               <h1>Live Shows</h1>
             </div>
           </div>
@@ -84,11 +84,11 @@ export default function Home() {
         
       </section>
 
-      <section className={styles.baseSection} id="contact">
+      <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="contact">
 
-        <div className={styles.sectionContentContainer}>
-          <div className={`${styles.sectionTitleContainer} ${styles.mediaTitleBackground}`}>
-            <div className={styles.sectionTitle}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.mediaTitleBackground}`}>
+            <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
               <h1>Media</h1>
             </div>
           </div>
@@ -97,9 +97,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.sectionContentContainer}>
-          <div className={`${styles.sectionTitleContainer} ${styles.contactTitleBackground}`}>
-            <div className={styles.sectionTitle}>
+        <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+          <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.contactTitleBackground}`}>
+            <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
               <h1>Get In Touch</h1>
             </div>
           </div>
