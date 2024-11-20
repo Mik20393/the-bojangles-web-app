@@ -9,9 +9,9 @@
 }
 
 
-@media (max-width: 1800px) {
+@media (max-width: 1000px) {
   .heroImageContainer {
-    height: 60vh;
+    height: 65vh;
   }
 } 
 
