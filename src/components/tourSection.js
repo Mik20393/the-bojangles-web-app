@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./tourSection.module.css";
 
 import GigDetails from "./gigDetails";
-import gigPoster from "@/public/gigPoster_16112024(1).jpg"
+import gigPoster from "@/public/gigPoster_16112024.jpg"
 
 export default function TourSection() {
     return (
