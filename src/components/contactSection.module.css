@@ -1,5 +1,5 @@
 .contactSectionContainer {
-    height: 42.5vh;
+    height: 60vh;
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -30,13 +30,13 @@
 }
 
 .formInputControl {
-    height: 5vh;
+    height: 6vh;
     margin: 0.2rem 0;
     background-color: lightgray;
 }
 
 .formTextAreaControl {
-    height: 15vh;
+    height: 25vh;
     margin: 0.2rem 0;
     background-color: lightgray;
 }
@@ -44,7 +44,7 @@
 .buttonContainer {
     display: flex;
     justify-content: end;
-
+    margin: 0.2rem 0;
 }
 
 .button {
@@ -54,7 +54,6 @@
 
 @media (max-width: 600px) {
     .contactSectionContainer {
-        height: 60vh;
         width: 100vw;
     }
 
