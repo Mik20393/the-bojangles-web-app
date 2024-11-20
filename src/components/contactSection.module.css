@@ -57,4 +57,9 @@
         height: 60vh;
         width: 100vw;
     }
+
+    .button {
+        width: 16vw;
+        background-color: lightgray;
+    }
 }
