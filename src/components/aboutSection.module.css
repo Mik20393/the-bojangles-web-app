@@ -24,6 +24,10 @@
 }
 
 @media (max-width: 600px) {
+    .aboutSectionContainer {
+        height: 45vh
+    }
+
     .aboutSectionContent {
         font-size: 12px;
     }
