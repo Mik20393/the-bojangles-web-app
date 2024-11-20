@@ -1,76 +1,60 @@
 .contactSectionContainer {
     height: 42.5vh;
-    width: 100%;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0.2rem;
 }
 
 .contactSectionTextContainer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 40vw;
 }
 
 .contactFormContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .contactForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .formInputControl {
-    width: 40vw;
     height: 5vh;
     margin: 0.2rem 0;
     background-color: lightgray;
 }
 
 .formTextAreaControl {
-    width: 40vw;
     height: 15vh;
     margin: 0.2rem 0;
     background-color: lightgray;
 }
 
 .buttonContainer {
-    width: 40vw;
-    height: 5vh;
     display: flex;
     justify-content: end;
 
 }
 
 .button {
-    width: 5rem;
+    width: 8vw;
     background-color: lightgray;
 }
 
 @media (max-width: 600px) {
     .contactSectionContainer {
         height: 60vh;
-    }
-
-    .contactSectionTextContainer {
-        width: 85vw;
-    }
-
-    .formInputControl {
-        width: 85vw;
-    }
-
-    .formTextAreaControl {
-        width: 85vw;
-    }
-
-    .buttonContainer {
-        width: 85vw;
+        width: 100vw;
     }
 }
