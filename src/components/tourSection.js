@@ -22,7 +22,7 @@ export default function TourSection() {
                         <GigDetails 
                             venu="BLOC+"
                             date="28/12/24 - 8PM"
-                            lineUp="The Bojangles, SNDO Beats, Journalist & Friends"
+                            lineUp="TBC"
                             tickets="FREE ENTRY" 
                         />
                     </div>

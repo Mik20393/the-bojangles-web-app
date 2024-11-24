@@ -1,20 +1,40 @@
 .mediaSectionContainer {
+    width: 50vw;
     height: 60vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.25rem;
 }
 
-.largeImage {
-    height: 50%;
+.largeImageContentContainer {
+    height: 30vh;
     width: 100%;
     display: flex;
 }
 
-.smallImage {
-    height: 50%;
+.largeImageContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;    
+}
+
+.smallImageContentConatainer {
+    height: 30vh;
     width: 100%;
     display: flex;
+}
+
+.smallImageContainer {
+    width: calc(100vw / 3);
+    height: 100%;
+    position: relative;    
+}
+
+
+@media (max-width: 600px) {
+    .mediaSectionContainer {
+        width: 100vw;
+    }
 }
