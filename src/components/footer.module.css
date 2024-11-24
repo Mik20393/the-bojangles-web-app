@@ -6,3 +6,8 @@
     align-items: center;
     border-top: 5px solid black;
 }
+
+.footerContentContainer {
+    display: flex;
+    align-items: center;
+}
