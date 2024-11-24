@@ -31,7 +31,7 @@ export default function Home() {
                 objectFit="contain"
               />     
             </div>
-            <div className={styles.bandSlogan}>
+            <div className={`${styles.bandSlogan} ${styles.displayFlexCenter}`}>
               <h3>The most serious band in Scotland</h3>
             </div>
             <div className={styles.socialsContainer}>
