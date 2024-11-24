@@ -25,11 +25,14 @@ export default function Home() {
             <div className={styles.logoImageContainer}>
               <Image
                 src={bandLogo} 
-                alt="Image of band"
+                alt="Image of band logo"
                 fill={true}
                 layout="fill"
                 objectFit="contain"
               />     
+            </div>
+            <div className={styles.bandSlogan}>
+              <h3>The most serious band in Scotland</h3>
             </div>
             <div className={styles.socialsContainer}>
               <h1><a href="https://www.soundcloud.com/the-bojangles"><FaSoundcloud /></a></h1>

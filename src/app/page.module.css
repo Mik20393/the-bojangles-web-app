@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .displayFlexCenter {
@@ -44,6 +45,7 @@
 
 .socialsContainer {
   height: 100%;
+  width: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;

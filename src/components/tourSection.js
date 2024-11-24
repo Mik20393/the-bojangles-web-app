@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./tourSection.module.css";
 
 import GigDetails from "./gigDetails";
-import gigPoster from "@/public/gigPoster_16112024.jpg"
+import gigPoster from "@/public/gigPoster_12122024.jpg"
 
 export default function TourSection() {
     return (
@@ -12,19 +12,16 @@ export default function TourSection() {
                 <div className={styles.liveShowDetailsContainer}>
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
-                            venu="BLOC+"
-                            date="16/11 - 8PM"
-                            lineUp="The Bojangles, SNDO Beats, Journalist & Friends"
-                            tickets="FREE ENTRY" 
+                            venu="Stereo"
+                            date= "12/12/24 - 6PM"
+                            lineUp="Chelsea K, Skyman, The Bojangles, 5th Element, Spit Back, Soul Level Collective ft Mo Mi Swir"
+                            tickets="£8 on door"
                         />
-                    </div>
-                    <div className ={styles.gigDetailsContainer}>
-                        <h1>Venue: Stereo</h1>
                     </div>
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
                             venu="BLOC+"
-                            date="28/12 - 8PM"
+                            date="28/12/24 - 8PM"
                             lineUp="The Bojangles, SNDO Beats, Journalist & Friends"
                             tickets="FREE ENTRY" 
                         />
