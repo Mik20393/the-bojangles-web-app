@@ -116,6 +116,10 @@
     height: 10vh;
   }
 
+  .socialsContainer {
+    padding-right: 1.5rem;
+  }
+
   .bandSlogan {
     font-size: 2vw;
   }
