@@ -15,6 +15,9 @@ import ContactSectionContent from "@/components/contactSection";
 import bandLogo from "@/public/logo.jpg"
 
 export default function Home() {
+
+  const bandSlogan = "\"The most serious band in Scotland\""
+
   return (
     <div className={styles.main}>
 
@@ -32,7 +35,7 @@ export default function Home() {
               />     
             </div>
             <div className={`${styles.bandSlogan} ${styles.displayFlexCenter}`}>
-              <h3>The most serious band in Scotland</h3>
+              <h3>{bandSlogan}</h3>
             </div>
             <div className={styles.socialsContainer}>
               <h1><a href="https://www.soundcloud.com/the-bojangles"><FaSoundcloud /></a></h1>
