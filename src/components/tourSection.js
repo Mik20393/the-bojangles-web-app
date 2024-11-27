@@ -14,14 +14,16 @@ export default function TourSection() {
                         <GigDetails 
                             venu="Stereo"
                             date= "12/12/24 - 6PM"
+                            place="22 Renfield Ln, Glasgow, G2 5AR"
                             lineUp="Chelsea K, Skyman, The Bojangles, 5th Element, Spit Back, Soul Level Collective ft Mo Mi Swir"
-                            tickets="£8 on door"
+                            ticketLink="https://www.skiddle.com/whats-on/Glasgow/Stereo-Glasgow/Glasgow-Allstars/40381044/"
                         />
                     </div>
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
                             venu="BLOC+"
                             date="28/12/24 - 8PM"
+                            place="117 Bath St, Glasgow, G2 2SZ"
                             lineUp="TBC"
                             tickets="FREE ENTRY" 
                         />
