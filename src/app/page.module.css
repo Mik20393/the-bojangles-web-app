@@ -120,6 +120,10 @@
     padding-right: 1.5rem;
   }
 
+  .socialsContainer h1 {
+    margin: 0;
+  }
+
   .bandSlogan {
     font-size: 2vw;
   }
