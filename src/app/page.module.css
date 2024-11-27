@@ -31,7 +31,6 @@
 .sectionTitleContainer {
   height: 15vh;
   width: 100%;
-  padding: 0.5rem;
 }
 
 .sectionTitle {
@@ -42,24 +41,24 @@
 .logoImageContainer {
   position: relative;
   height: 100%;
-  width: 15vw;
+  width: 12vw;
 }
 
 .bandSlogan {
   font-size: 1.5vw;
-  width: 50vw;
 }
 
 .socialsContainer {
   height: 100%;
-  width: 15vw;
+  width: 12vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 1rem;
 }
 
 .socialsContainer h1 {
-  margin: 0.15rem;
+  margin: 0.5rem;
 }
 
 .musicTitleBackground {
