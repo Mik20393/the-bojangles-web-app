@@ -35,7 +35,7 @@ export default function Home() {
               />     
             </div>
             <div className={`${styles.bandSlogan} ${styles.displayFlexCenter}`}>
-              <h3>{bandSlogan}</h3>
+              <h4>{bandSlogan}</h4>
             </div>
             <div className={styles.socialsContainer}>
               <h1><a href="https://www.soundcloud.com/the-bojangles"><FaSoundcloud /></a></h1>

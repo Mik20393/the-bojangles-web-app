@@ -116,8 +116,12 @@
     height: 10vh;
   }
 
+  .logoImageContainer {
+    width: 10vw;
+  }
+
   .socialsContainer {
-    padding-right: 2rem;
+    width: 10vw;
   }
 
   .bandSlogan {
