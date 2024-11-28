@@ -119,11 +119,12 @@
   }
 
   .logoImageContainer {
-    width: 10vw;
+    width: 12vw;
   }
 
   .socialsContainer {
-    width: 10vw;
+    width: 12vw;
+    font-size: 30%;
   }
 
   .bandSlogan {
