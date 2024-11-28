@@ -2,8 +2,9 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 2.5% 10%;
 }
 
 .liveShowDetailsContainer {
@@ -13,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
 }
 
 .gigDetailsContainer {
@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
 }
 
 .posterImageContainer {
