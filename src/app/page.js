@@ -106,7 +106,7 @@ export default function Home() {
         <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
           <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.contactTitleBackground}`}>
             <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
-              <h1>Get In Touch</h1>
+              <h1>Contact</h1>
             </div>
           </div>
           <div className={styles.sectionMainContent}>
