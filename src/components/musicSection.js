@@ -3,12 +3,7 @@ import styles from "./musicSection.module.css";
 export default function MusicSection() {
     return(
         <div className={styles.spotifyWidgetContainer}>
-            <iframe 
-                src="https://open.spotify.com/embed/artist/6zsufoNor8LIWKHTpb9EVm"
-                width="100%"
-                height="100%"
-                autoPlay>
-            </iframe>
+            <iframe width= "100%" height= "100%" src="https://bandcamp.com/EmbeddedPlayer/track=2982826395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://thebojangles.bandcamp.com/track/tocar-te">Tocar-te by The Bojangles</a></iframe>
         </div>
         
     )
