@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react";
-import { Toaster, toast } from 'sonner'
+import { Toaster, toast } from 'sonner';
 
 import styles from "./contactSection.module.css";
 
@@ -37,7 +37,6 @@ export default function ContactSection() {
 
     return (
         <>
-            <Toaster richColors/>
             <div className={styles.contactSectionContainer}>
                 <div className={styles.contactSectionTextContainer}>
                     <p>
