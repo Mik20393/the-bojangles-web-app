@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./tourSection.module.css";
 
 import GigDetails from "./gigDetails";
-import gigPoster from "@/public/gigPoster_12122024.jpg"
+import gigPoster from "@/public/gigPoster_28122024(1).jpg"
 
 export default function TourSection() {
     return (
@@ -12,19 +12,10 @@ export default function TourSection() {
                 <div className={styles.liveShowDetailsContainer}>
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
-                            venu="Stereo"
-                            date= "12/12/24 - 6PM"
-                            place="22 Renfield Ln, Glasgow, G2 5AR"
-                            lineUp="Chelsea K, Skyman, The Bojangles, 5th Element, Spit Back, Soul Level Collective ft Mo Mi Swir"
-                            ticketLink="https://www.skiddle.com/whats-on/Glasgow/Stereo-Glasgow/Glasgow-Allstars/40381044/"
-                        />
-                    </div>
-                    <div className ={styles.gigDetailsContainer}>
-                        <GigDetails 
                             venu="BLOC+"
                             date="28/12/24 - 8PM"
                             place="117 Bath St, Glasgow, G2 2SZ"
-                            lineUp="TBC"
+                            lineUp="Sebastian Summers, The Bojangles"
                             tickets="FREE ENTRY" 
                         />
                     </div>
