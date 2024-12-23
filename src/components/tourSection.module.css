@@ -35,5 +35,14 @@
     .tourSectionContainer {
         flex-direction: column-reverse;
     }
+
+    .liveShowDetailsContainer {
+        justify-content: center;
+    }
+
+    .posterContentContainer {
+        justify-content: center;
+        align-items: center;
+    }
      
 }
