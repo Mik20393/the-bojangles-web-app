@@ -1,23 +1,19 @@
 .tourSectionContainer {
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 2.5% 10%;
 }
 
 .liveShowDetailsContainer {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .gigDetailsContainer {
     background-color: lightgray;
-    margin: 0.5rem;
     padding: 0.5rem;
     width: 100%;
     display: flex;
@@ -27,8 +23,6 @@
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .posterImageContainer {
@@ -37,8 +31,9 @@
     width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .tourSectionContainer {
         flex-direction: column-reverse;
     }
+     
 }
