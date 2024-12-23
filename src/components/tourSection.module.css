@@ -33,6 +33,7 @@
 
 @media (max-width: 1200px) {
     .tourSectionContainer {
+        height: 100vh;
         flex-direction: column-reverse;
     }
 
