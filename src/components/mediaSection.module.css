@@ -11,6 +11,7 @@
 
 @media (max-width: 600px) {
     .mediaSectionContainer {
+        height: 40vh;
         width: 100vw;
     }
 }
