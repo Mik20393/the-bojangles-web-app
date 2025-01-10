@@ -13,9 +13,18 @@ export default function TourSection() {
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
                             venu="BLOC+"
-                            date="28/12/24 - 8PM"
+                            date="17/01/25 - 8PM"
                             place="117 Bath St, Glasgow, G2 2SZ"
-                            lineUp="Sebastian Summers, The Bojangles"
+                            lineUp="Ria Bronte, Sebastian Summers, The Bojangles"
+                            tickets="FREE ENTRY" 
+                        />
+                    </div>
+                    <div className ={styles.gigDetailsContainer}>
+                        <GigDetails 
+                            venu="BLOC+"
+                            date="07/02/25 - 8PM"
+                            place="117 Bath St, Glasgow, G2 2SZ"
+                            lineUp="TBC"
                             tickets="FREE ENTRY" 
                         />
                     </div>
