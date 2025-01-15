@@ -108,8 +108,7 @@
   }
 }
 
-@media (max-width: 600px) {
-
+@media screen and (max-width: 1000px) {
   .baseSection {
     flex-direction: column;
   }
@@ -117,7 +116,9 @@
   .sectionTitleContainer {
     height: 10vh;
   }
+}
 
+@media (max-width: 600px) {
   .logoImageContainer {
     width: 12vw;
   }
@@ -131,27 +132,12 @@
     font-size: 2.5vw;
   }
 
-  .page {
-    padding: 32px;
-    padding-bottom: 80px;
-  }
-
   .main {
     align-items: center;
   }
 
   .main ol {
     text-align: center;
-  }
-
-  .ctas {
-    flex-direction: column;
-  }
-
-  .ctas a {
-    font-size: 14px;
-    height: 40px;
-    padding: 0 16px;
   }
 
   a.secondary {
