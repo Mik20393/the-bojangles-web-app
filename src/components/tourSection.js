@@ -15,7 +15,7 @@ export default function TourSection() {
                             venu="BLOC+"
                             date="17/01/25 - 8PM"
                             place="117 Bath St, Glasgow, G2 2SZ"
-                            lineUp="Ria Bronte, Sebastian Summers, The Bojangles"
+                            lineUp="Ria Bronte, Ragga Bastian, The Bojangles"
                             tickets="FREE ENTRY" 
                         />
                     </div>
