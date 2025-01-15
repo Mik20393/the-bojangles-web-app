@@ -32,10 +32,10 @@ export default function TourSection() {
                 <div className={styles.posterContentContainer}>
                     <div className={styles.posterImageContainer}>
                         <Image 
+                            className={styles.gigPoster}
                             src={gigPoster}
                             alt="Gig poster for the upcoming bojangles gig"
-                            fill={true}
-                            objectFit="contain"                        
+                            fill={true}                       
                         />
                     </div>
                 </div>
