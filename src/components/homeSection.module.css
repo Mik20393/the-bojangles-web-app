@@ -9,14 +9,21 @@
 }
 
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px),
+       screen and (min-height: 1000px) {
   .heroImageContainer {
-    height: 65vh;
+    height: 45vh;
   }
 } 
 
 @media (max-width: 600px) {
   .heroImageContainer {
     height: 35vh;
+  } 
+}
+
+@media (max-width: 400px) {
+  .heroImageContainer {
+    height: 25vh;
   } 
 }
