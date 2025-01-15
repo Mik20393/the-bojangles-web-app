@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./tourSection.module.css";
 
 import GigDetails from "./gigDetails";
-import gigPoster from "@/public/gig_poster28122024.jpg"
+import gigPoster from "@/public/gigPoster_17012025.jpg"
 
 export default function TourSection() {
     return (
@@ -35,7 +35,8 @@ export default function TourSection() {
                             className={styles.gigPoster}
                             src={gigPoster}
                             alt="Gig poster for the upcoming bojangles gig"
-                            fill={true}                       
+                            fill={true} 
+                            objectFit="contain"                      
                         />
                     </div>
                 </div>
