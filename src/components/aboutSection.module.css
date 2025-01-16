@@ -15,20 +15,20 @@
 }
 
 .aboutSectionContent {
-    font-size: 35px;
+    font-size: 20px;
 }
 
-@media (max-width: 1800px) {
+@media screen and (max-width: 1000px),
+       screen and (min-height: 1000px) {
+    .aboutSectionContainer {
+        height: 35vh;
+    }
     .aboutSectionContent {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 600px) {
-    .aboutSectionContainer {
-        height: 45vh
-    }
-
     .aboutSectionContent {
         font-size: 12px;
     }
