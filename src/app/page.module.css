@@ -110,7 +110,8 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px),
+       screen and (min-height: 1000px) {
   .baseSection {
     flex-direction: column;
   }
@@ -132,29 +133,5 @@
 
   .bandSlogan {
     font-size: 2.5vw;
-  }
-
-  .main {
-    align-items: center;
-  }
-
-  .main ol {
-    text-align: center;
-  }
-
-  a.secondary {
-    min-width: auto;
-  }
-
-  .footer {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
   }
 }
