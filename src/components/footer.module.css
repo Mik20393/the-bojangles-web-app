@@ -10,3 +10,16 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 1000px),
+       screen and (min-height: 1300px) {
+    .footer {
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: 7vh;
+    }
+}

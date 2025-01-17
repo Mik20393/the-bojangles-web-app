@@ -52,9 +52,35 @@
     background-color: lightgray;
 }
 
+@media screen and (max-width: 1000px),
+       screen and (min-height: 1300px) {
+    .contactSectionContainer {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .formInputControl {
+        height: 4vh;
+    }
+
+    .formTextAreaControl {
+        height: 15vh;
+    }
+}
+
+
 @media (max-width: 600px) {
     .contactSectionContainer {
+        height: 55vh;
         width: 100vw;
+    }
+
+    .formInputControl {
+        height: 6vh;
+    }
+
+    .formTextAreaControl {
+        height: 20vh;
     }
 
     .button {
