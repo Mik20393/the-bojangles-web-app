@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1000px),
-       screen and (min-height: 1000px) {
+       screen and (min-height: 1300px) {
     .bandCampWidgetContainer {
         height: 700px;
     }
