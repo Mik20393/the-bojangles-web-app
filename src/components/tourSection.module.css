@@ -34,6 +34,10 @@
     width: 100%;
 }
 
+.gigPosterLong {
+    display: none;
+}
+
 @media screen and (max-width: 1000px),
        screen and (min-height: 1000px) {
     .tourSectionContainer {
@@ -44,5 +48,13 @@
     .posterContentContainer {
         justify-content: center;
         align-items: center;
+    }
+
+    .gigPosterShort {
+        display: none;
+    }
+
+    .gigPosterLong {
+        display: block;
     }
 }
