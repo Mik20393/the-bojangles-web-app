@@ -14,18 +14,8 @@ export default function TourSection() {
                     <div className ={styles.gigDetailsContainer}>
                         <GigDetails 
                             venu="BLOC+"
-                            date="17/01/25 - 8PM"
-                            place="117 Bath St, Glasgow, G2 2SZ"
-                            lineUp="Ria Bronte, Ragga Bastian, The Bojangles"
-                            tickets="FREE ENTRY" 
-                        />
-                    </div>
-                    <div className ={styles.gigDetailsContainer}>
-                        <GigDetails 
-                            venu="BLOC+"
                             date="07/02/25 - 8PM"
                             place="117 Bath St, Glasgow, G2 2SZ"
-                            lineUp="TBC"
                             tickets="FREE ENTRY" 
                         />
                     </div>
@@ -36,15 +26,13 @@ export default function TourSection() {
                             className={styles.gigPosterShort}
                             src={gigPosterShort}
                             alt="Gig poster for the upcoming bojangles gig"
-                            fill={true} 
-                            objectFit="contain"                      
+                            fill={true}                   
                         />
                         <Image 
                             className={styles.gigPosterLong}
                             src={gigPosterLong}
                             alt="Gig poster for the upcoming bojangles gig"
-                            fill={true} 
-                            objectFit="contain"                      
+                            fill={true}                     
                         />
                     </div>
                 </div>

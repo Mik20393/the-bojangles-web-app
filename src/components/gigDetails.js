@@ -6,7 +6,6 @@ export default function GigDetails({venu, date, place, lineUp, tickets, ticketLi
             <h1>VENUE: {venu}</h1>
             <h3>DATE: {date}</h3>
             <h3>PLACE: {place}</h3>
-            <h3>LINE UP: {lineUp}</h3>
             <div className={styles.ticketDetails}>
                 { ticketLink ? (
                     <h3>TICKETS: <a href={ticketLink}>Click Here</a></h3>
