@@ -1,67 +1,61 @@
 .tourSectionContainer {
     width: 100vw;
     display: flex;
-    padding: 2.5% 10%;
+    padding: 2.5% 5%;
 }
 
 .liveShowDetailsContainer {
-    padding: 0.5rem;
     width: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .gigDetailsContainer {
+    width: 100%;
+}
+
+.gigDetails {
     background-color: lightgray;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    display: flex;
 }
 
 .posterContentContainer {
-    padding: 0.5rem;
-    height: 85vh;
+    height: 70vh;
     width: 100%;
-    display: flex;
-}
-
-.posterImageContainer {
     position: relative;
-    height: 100%;
-    width: 100%;
 }
 
-.gigPosterLong {
-    display: none;
-    object-fit: contain;
-}
-
-@media screen and (max-width: 1000px),
-       screen and (min-height: 1000px) {
-    .tourSectionContainer {
+@media screen and (max-width: 1000px), (min-height: 1350px) {
+    .liveShowDetailsContainer {
         flex-direction: column-reverse;
     }
 
     .posterContentContainer {
-        height: 50vh;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .gigPosterShort {
-        object-fit: contain;
+        height: 70vh;
     }
 }
 
-/* @media (max-width: 600px) {
-    .gigPosterShort {
-        display: none;
+
+@media (max-width: 500px) {
+    .posterContentContainer {
+        height: 45vh;
     }
 
-    .gigPosterLong {
-        display: block;
-        object-fit: contain;
+    .gigDetails {
+        margin-top: 0.5rem;
+        font-size: 10px;
     }
-} */
+}
+
+@media (max-width: 400px) {
+    .posterContentContainer {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .posterContentContainer {
+        height: 35vh;
+    }
+}

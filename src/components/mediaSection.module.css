@@ -9,9 +9,9 @@
 }
 
 @media screen and (max-width: 1000px),
-       screen and (min-height: 1300px) {
+       screen and (min-height: 1350px) {
     .mediaSectionContainer {
-        height: 70vh;
+        height: 50vh;
         width: 100vw;
     }
 }
@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 600px) {
     .mediaSectionContainer {
-        height: 50vh;
+        height: 35vh;
     }
 }

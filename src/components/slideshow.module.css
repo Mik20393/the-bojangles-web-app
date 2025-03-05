@@ -1,0 +1,19 @@
+.slideshowContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.prevSlideBtn {
+    position: absolute;
+    bottom: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.nextSlideBtn {
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}

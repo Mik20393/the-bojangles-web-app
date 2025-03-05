@@ -12,7 +12,7 @@ import TourSectionContent from "@/components/tourSection";
 import MediaSectionContent from "@/components/mediaSection";
 import ContactSectionContent from "@/components/contactSection";
 
-import bandLogo from "@/public/logo.jpg"
+import bandLogo from "@/public/logo.jpg";
 
 export default function Home() {
 

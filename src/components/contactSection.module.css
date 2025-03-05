@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 1000px),
-       screen and (min-height: 1300px) {
+       screen and (min-height: 1350px) {
     .contactSectionContainer {
         height: 40vh;
         width: 100vw;

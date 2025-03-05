@@ -1,7 +1,7 @@
 .bandCampWidgetContainer {
     height: 70vh;
     width: 100%;
-    padding: 2.5% 10%;
+    padding: 2.5% 5%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1000px),
-       screen and (min-height: 1300px) {
+       screen and (min-height: 1350px) {
     .bandCampWidgetContainer {
         height: 700px;
     }

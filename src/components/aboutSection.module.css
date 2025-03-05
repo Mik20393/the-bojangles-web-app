@@ -1,6 +1,6 @@
 .aboutSectionContainer {
     height: 70vh;
-    padding: 2.5% 10%;
+    padding: 2.5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,10 +16,11 @@
 
 .aboutSectionContent {
     font-size: 20px;
+    padding: 2.5%;
 }
 
 @media screen and (max-width: 1000px),
-       screen and (min-height: 1300px) {
+       screen and (min-height: 1350px) {
     .aboutSectionContainer {
         height: 35vh;
     }
