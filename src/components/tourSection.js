@@ -15,22 +15,18 @@ export default function TourSection() {
             <div className={styles.tourSectionContainer}>
                 <div className={styles.liveShowDetailsContainer}>
                     <div className={styles.gigDetailsContainer}>
-                        <div className={styles.gigDetails}>
-                            <GigDetails 
-                                venu="BLOC +"
-                                date="14/03/25 - 8PM"
-                                place="117 Bath Street, Glasgow, G2 2SZ"
-                                tickets="FREE ENTRY"
-                            />
-                        </div>
-                        <div className ={styles.gigDetails}>
-                            <GigDetails 
-                                venu="Room 2"
-                                date="21/03/25 - 7PM"
-                                place="69 Nelson Mandela Place, Glasgow, G2 1QY"
-                                ticketLink="https://ra.co/events/2108643" 
-                            />
-                        </div>
+                        <GigDetails 
+                            venu="BLOC +"
+                            date="14/03/25"
+                            place="117 Bath Street, Glasgow, G2 2SZ"
+                            tickets="FREE ENTRY"
+                        />
+                        <GigDetails 
+                            venu="Room 2"
+                            date="21/03/25"
+                            place="69 Nelson Mandela Place, Glasgow, G2 1QY"
+                            ticketLink="https://ra.co/events/2108643" 
+                        />
                     </div>
                     <div className={styles.posterContentContainer}>
                         <Slideshow images={images} />

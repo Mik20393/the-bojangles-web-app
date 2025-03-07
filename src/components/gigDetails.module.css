@@ -1,6 +1,24 @@
+.gigDetailsContainer {
+    background-color: lightgray;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
 .gigDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.disabled {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .gigDetailsContainer {
+        margin-top: 0.5rem;
+        font-size: 10px;
+    }
 }
