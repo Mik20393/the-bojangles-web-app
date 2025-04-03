@@ -5,7 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import styles from './slideshow.module.css';
 
 export default function Slideshow ({ images }) {
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(images.length - 1);
 
     const nextSlide = () => {
         setCurrentIndex((currentIndex + 1) % images.length);
