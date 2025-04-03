@@ -9,7 +9,7 @@ import gigPoster20250314 from "@/public/gig_poster_20250314.jpg";
 import gigPoster20250321 from "@/public/gig_poster_20250321.jpg";
 import gigPoster20250406 from "@/public/gig_poster_20250406(1).jpg";
 
-export default function TourSection() {
+export default function TourSection({ posters }) {
     const images = [gigPoster20250406, gigPoster20250321, gigPoster20250314, gigPoster20250207];
     return (
         <>

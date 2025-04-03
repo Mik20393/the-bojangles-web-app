@@ -11,12 +11,27 @@ import MusicSectionContent from "@/components/musicSection";
 import TourSectionContent from "@/components/tourSection";
 import MediaSectionContent from "@/components/mediaSection";
 import ContactSectionContent from "@/components/contactSection";
+import supabase from "@/api/supabase";
 
 import bandLogo from "@/public/logo.jpg";
 
-export default function Home() {
+export default async function Home() {
 
   const bandSlogan = "\"The most serious band in Scotland\""
+
+  const { data: files, error } = await supabase.storage.from("gig-posters").list();
+ 
+  if (error) {
+      console.error("Error fetching images:", error);
+  } else {
+      const posterUrls = files.map(file => {
+        const { data: publicUrl } = supabase.storage
+          .from("gig-posters")
+          .getPublicUrl(file.name)
+        return publicUrl.publicUrl;
+      });
+      console.log("Fetched images:", posterUrls);
+  };
 
   return (
     <div className={styles.main}>
