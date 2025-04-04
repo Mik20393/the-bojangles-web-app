@@ -1,5 +1,5 @@
 .bandCampWidgetContainer {
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     padding: 2.5% 5%;
     display:flex;
@@ -10,19 +10,38 @@
 .bandCampWidget {
     width: 100%;
     height: 100%;
-    max-height: 600px;
-    max-width: 700px;
+    max-height: 442px;
+    max-width: 350px;
+    border: 0;
+}
+
+.bandCampWidgetMobile {
+    display: none;
+    width: 100%;
+    height: 100%;
+    max-height: 120px;
+    max-width: 750px;
+    border: 0;
 }
 
 @media screen and (max-width: 1000px),
        screen and (min-height: 1350px) {
-    .bandCampWidgetContainer {
-        height: 700px;
-    }
+        .bandCampWidgetContainer {
+            height: 15vh;
+        }
+
+        .bandCampWidget {
+            display: none;
+        }
+    
+        .bandCampWidgetMobile {
+            display: flex;
+        }
 }
 
 @media (max-width: 600px) {
     .bandCampWidgetContainer {
-        height: 38vh;
+        padding: 2.5%;
+        height: 150px;
     }
 }
