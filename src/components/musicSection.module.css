@@ -27,7 +27,8 @@
 @media screen and (max-width: 1000px),
        screen and (min-height: 1350px) {
         .bandCampWidgetContainer {
-            height: 15vh;
+            padding: 2.5%;
+            height: 150px;
         }
 
         .bandCampWidget {
@@ -37,11 +38,4 @@
         .bandCampWidgetMobile {
             display: flex;
         }
-}
-
-@media (max-width: 600px) {
-    .bandCampWidgetContainer {
-        padding: 2.5%;
-        height: 150px;
-    }
 }
