@@ -8,6 +8,12 @@ export default function MusicSection() {
                 src="https://bandcamp.com/EmbeddedPlayer/track=2982826395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless>
                 <a href="https://thebojangles.bandcamp.com/track/tocar-te">Tocar-te by The Bojangles</a>
             </iframe>
+
+            <iframe 
+                className={styles.bandCampWidgetMobile}
+                src="https://bandcamp.com/EmbeddedPlayer/track=2982826395/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+                <a href="https://thebojangles.bandcamp.com/track/tocar-te">Tocar-te by The Bojangles</a>
+            </iframe>
         </div>
         
     )
