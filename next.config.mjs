@@ -7,7 +7,6 @@ const nextConfig = {
                 hostname: 'luvtirdnwxbnlqwjwygl.supabase.co',
                 port: '',
                 pathname: '/storage/v1/object/public/gig-posters/**',
-
             }
         ],
     }
