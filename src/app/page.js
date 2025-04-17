@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import HomeSectionContent from "@/components/homeSection";
 import AboutSectionContent from "@/components/aboutSection";
 import MusicSectionContent from "@/components/musicSection";
+import ShopPreviewContent from "@/components/shopPreviewSection";
 import TourSectionContent from "@/components/tourSection";
 import MediaSectionContent from "@/components/mediaSection";
 import ContactSectionContent from "@/components/contactSection";
@@ -20,12 +21,13 @@ export default async function Home() {
 
   const bandSlogan = "\"The most serious band in Scotland\""
 
-  const { data: files, error } = await supabase.storage.from("gig-posters").list();
+  const { data: posters, error: posterError } = await supabase.storage.from("gig-posters").list();
+  const { data: products, error: productError } = await supabase.from("products").select('*');
  
-  if (error) {
-      console.error("Error fetching images:", error);
+  if (posterError) {
+      console.error("Error fetching images:", posterError);
   } else {
-      const posterUrls = files.map(file => {
+      const posterUrls = posters.map(file => {
         const { data: publicUrl } = supabase.storage
           .from("gig-posters")
           .getPublicUrl(file.name)
@@ -87,6 +89,19 @@ export default async function Home() {
               </div>
             </div>
     
+          </section>
+
+          <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="shop">
+            <div className={`${styles.sectionContentContainer} ${styles.displayFlexCenter}`}>
+              <div className={`${styles.sectionTitleContainer} ${styles.displayFlexCenter} ${styles.shopTitleBackground}`}>
+                <div className={`${styles.sectionTitle} ${styles.displayFlexCenter}`}>
+                  <h1>Shop</h1>
+                </div>
+              </div>
+              <div className={styles.sectionMainContent}>
+                <ShopPreviewContent products={products}/>
+              </div>
+            </div>
           </section>
     
           <section className={`${styles.baseSection} ${styles.displayFlexCenter}`} id="tour">

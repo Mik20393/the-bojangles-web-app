@@ -6,7 +6,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'luvtirdnwxbnlqwjwygl.supabase.co',
                 port: '',
-                pathname: '/storage/v1/object/public/gig-posters/**',
+                pathname: '/storage/v1/object/public/**',
             }
         ],
     }
