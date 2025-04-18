@@ -12,10 +12,10 @@ export default function TourSection({ posters }) {
                 <div className={styles.liveShowDetailsContainer}>
                     <div className={styles.gigDetailsContainer}>
                         <GigDetails 
-                            venu="Mono"
-                            date="06/04/25"
-                            place="12 Kings Court, Kings Street, Glasgow, G1 5RB"
-                            ticketLink="https://www.eventbrite.co.uk/e/to-glasgow-with-love-x-fundraiser-for-refuweegee-tickets-1291210267669" 
+                            venu="Vic Bar"
+                            date="17/05/25"
+                            place="The Art School, 20 Scott St, Glasgow G3 6PE"
+                            ticketLink="https://www.skiddle.com/whats-on/Glasgow/The-Vic-Bar/Belle-poque-VicBar-TelekinephewsSloblinBojanglesMoonsoup/40949492/" 
                         />
                     </div>
                     <div className={styles.posterContentContainer}>
